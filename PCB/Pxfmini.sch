@@ -428,7 +428,7 @@ U 1 1 57EE9F34
 P 8150 1300
 F 0 "R1" V 8230 1300 50  0000 C CNN
 F 1 "18K" V 8150 1300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 8080 1300 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8080 1300 50  0001 C CNN
 F 3 "" H 8150 1300 50  0000 C CNN
 	1    8150 1300
 	0    1    1    0   
@@ -439,7 +439,7 @@ U 1 1 57EEA24B
 P 7950 1500
 F 0 "R2" H 8030 1500 50  0000 L CNN
 F 1 "33K" V 7950 1500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7880 1500 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7880 1500 50  0001 C CNN
 F 3 "" H 7950 1500 50  0000 C CNN
 	1    7950 1500
 	1    0    0    -1  
@@ -620,7 +620,7 @@ U 1 1 57EE5467
 P 6400 4300
 F 0 "R3" V 6480 4300 50  0000 C CNN
 F 1 "220" V 6400 4300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6330 4300 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6330 4300 50  0001 C CNN
 F 3 "" H 6400 4300 50  0000 C CNN
 	1    6400 4300
 	0    1    1    0   
@@ -631,7 +631,7 @@ U 1 1 57EE55DD
 P 6400 4600
 F 0 "R4" V 6480 4600 50  0000 C CNN
 F 1 "220" V 6400 4600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6330 4600 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6330 4600 50  0001 C CNN
 F 3 "" H 6400 4600 50  0000 C CNN
 	1    6400 4600
 	0    1    1    0   
@@ -642,7 +642,7 @@ U 1 1 57EE5673
 P 6400 4900
 F 0 "R5" V 6480 4900 50  0000 C CNN
 F 1 "220" V 6400 4900 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6330 4900 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6330 4900 50  0001 C CNN
 F 3 "" H 6400 4900 50  0000 C CNN
 	1    6400 4900
 	0    1    1    0   

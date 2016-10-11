@@ -136,7 +136,7 @@ L CONN_02X20 P0
 U 1 1 57EE7972
 P 2250 2300
 F 0 "P0" H 2250 3350 50  0000 C CNN
-F 1 "Raspberry PI GPIO" H 2800 2800 50  0000 L CNN
+F 1 "Raspberry PI GPIO" H 1100 3750 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 2250 1350 50  0001 C CNN
 F 3 "" H 2250 1350 50  0000 C CNN
 	1    2250 2300
@@ -620,7 +620,7 @@ U 1 1 57EE5467
 P 6400 4300
 F 0 "R3" V 6480 4300 50  0000 C CNN
 F 1 "220" V 6400 4300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6330 4300 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6330 4300 50  0001 C CNN
 F 3 "" H 6400 4300 50  0000 C CNN
 	1    6400 4300
 	0    1    1    0   
@@ -631,7 +631,7 @@ U 1 1 57EE55DD
 P 6400 4600
 F 0 "R4" V 6480 4600 50  0000 C CNN
 F 1 "220" V 6400 4600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6330 4600 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6330 4600 50  0001 C CNN
 F 3 "" H 6400 4600 50  0000 C CNN
 	1    6400 4600
 	0    1    1    0   
@@ -642,7 +642,7 @@ U 1 1 57EE5673
 P 6400 4900
 F 0 "R5" V 6480 4900 50  0000 C CNN
 F 1 "220" V 6400 4900 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6330 4900 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6330 4900 50  0001 C CNN
 F 3 "" H 6400 4900 50  0000 C CNN
 	1    6400 4900
 	0    1    1    0   
