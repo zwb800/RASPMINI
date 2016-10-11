@@ -38,7 +38,7 @@ Title ""
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "hat dimension:65mm*56mm"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -56,17 +56,15 @@ F 3 "" H 2500 4900 50  0000 C CNN
 $EndComp
 Text Label 1850 4450 0    60   ~ 0
 +3.3v
-Text Label 1850 4550 0    60   ~ 0
-GND
 $Comp
 L GND #PWR01
 U 1 1 57EE7200
-P 1450 4500
-F 0 "#PWR01" H 1450 4250 50  0001 C CNN
-F 1 "GND" H 1450 4350 50  0000 C CNN
-F 2 "" H 1450 4500 50  0000 C CNN
-F 3 "" H 1450 4500 50  0000 C CNN
-	1    1450 4500
+P 1450 4550
+F 0 "#PWR01" H 1450 4300 50  0001 C CNN
+F 1 "GND" H 1450 4400 50  0000 C CNN
+F 2 "" H 1450 4550 50  0000 C CNN
+F 3 "" H 1450 4550 50  0000 C CNN
+	1    1450 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -138,7 +136,7 @@ L CONN_02X20 P0
 U 1 1 57EE7972
 P 2250 2300
 F 0 "P0" H 2250 3350 50  0000 C CNN
-F 1 "Raspberry pi GPIO" H 2600 2750 50  0000 L CNN
+F 1 "Raspberry PI GPIO" H 2800 2800 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 2250 1350 50  0001 C CNN
 F 3 "" H 2250 1350 50  0000 C CNN
 	1    2250 2300
@@ -300,12 +298,6 @@ RXD
 Wire Wire Line
 	1450 4450 2300 4450
 Wire Wire Line
-	1850 4550 2300 4550
-Wire Wire Line
-	1450 4500 1850 4500
-Wire Wire Line
-	1850 4500 1850 4550
-Wire Wire Line
 	1450 4350 1450 4450
 Wire Wire Line
 	1850 4650 2300 4650
@@ -336,9 +328,6 @@ Wire Wire Line
 	1850 5250 2300 5250
 Wire Wire Line
 	1750 5350 2300 5350
-Wire Wire Line
-	1750 4500 1750 5350
-Connection ~ 1750 4500
 Wire Wire Line
 	1550 1200 2000 1200
 Wire Wire Line
@@ -594,7 +583,7 @@ F 3 "" H 3400 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 2250 3250 2250
+	3250 2250 2500 2250
 Wire Wire Line
 	2500 2350 2700 2350
 Wire Wire Line
@@ -602,7 +591,7 @@ Wire Wire Line
 Text Label 2750 3050 0    60   ~ 0
 LED_GPS
 Wire Wire Line
-	3250 2250 3250 2050
+	3250 1950 3250 2250
 Wire Wire Line
 	3250 2050 3400 2050
 Wire Wire Line
@@ -700,4 +689,46 @@ Wire Wire Line
 	5500 4600 6250 4600
 Wire Wire Line
 	5850 4900 6250 4900
+Text Notes 2350 5500 0    60   ~ 0
+15mm*25mm
+Text Notes 4200 5200 0    60   ~ 0
+19mm*13mm
+Text Notes 7300 3200 0    60   ~ 0
+62mm*25mm
+Wire Wire Line
+	1450 4550 2300 4550
+Wire Wire Line
+	1750 5350 1750 4550
+Connection ~ 1750 4550
+Text Label 1850 5150 0    60   ~ 0
+MPU_DRDY
+Wire Wire Line
+	1850 5150 2300 5150
+Text Label 1850 4550 0    60   ~ 0
+GND
+Text Label 2700 2050 0    60   ~ 0
+MPU_DRDY
+Wire Wire Line
+	2500 1950 3250 1950
+Connection ~ 3250 2050
+Wire Wire Line
+	2500 2050 2700 2050
+$Comp
+L GND #PWR021
+U 1 1 57F96D5B
+P 3250 2950
+F 0 "#PWR021" H 3250 2700 50  0001 C CNN
+F 1 "GND" H 3250 2800 50  0000 C CNN
+F 2 "" H 3250 2950 50  0000 C CNN
+F 3 "" H 3250 2950 50  0000 C CNN
+	1    3250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2950 3250 2950
+Wire Wire Line
+	2500 2750 2650 2750
+Wire Wire Line
+	2650 2750 2650 2950
+Connection ~ 2650 2950
 $EndSCHEMATC
